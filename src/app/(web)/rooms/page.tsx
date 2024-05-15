@@ -22,7 +22,7 @@ const Rooms = () => {
 
         if(roomType) setRoomTypeFilter(roomType);
         if(searchQuery) setSearchQuery(searchQuery);
-    },[])
+    },[searchParams])
 
 
     async function fetchData(){
