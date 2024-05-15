@@ -6,7 +6,7 @@ import { LiaFireExtinguisherSolid } from 'react-icons/lia';
 import { AiOutlineMedicineBox } from 'react-icons/ai';
 import { GiSmokeBomb } from 'react-icons/gi';
 import { useState } from 'react';
-import axios from 'axios';
+
 
 import { getRoom } from '@/libs/apis';
 import LoadingSpinner from '../../loading';
